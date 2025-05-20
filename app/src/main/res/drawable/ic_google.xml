@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ic_google.xml - Icono de Google para login social -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#EA4335"
+        android:pathData="M5.266,9.765C4.969,8.894 4.89,7.975 4.89,7c0,-0.975 0.078,-1.894 0.375,-2.765H5.264C4.969,5.105 4.895,6.044 4.895,7s0.074,1.895 0.37,2.765H5.266z" />
+    <path
+        android:fillColor="#FBBC05"
+        android:pathData="M12,17.5c-2.973,0 -5.562,-1.575 -7.029,-3.935l-0.375,0.265C6.238,16.356 8.969,18 12,18c3.031,0 5.738,-1.644 7.375,-4.17l-0.375,-0.265C17.562,15.925 14.973,17.5 12,17.5L12,17.5z" />
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M12,8v3.5h5.25c-0.24,1.387 -0.945,2.561 -2.006,3.414l0.336,0.285C17.064,13.894 18,11.655 18,9c0,-0.375 -0.035,-0.75 -0.07,-1H12V8z" />
+    <path
+        android:fillColor="#34A853"
+        android:pathData="M7,12c0,-2.761 2.239,-5 5,-5c1.125,0 2.16,0.375 2.988,1l1.417,-1.417C15.273,5.644 13.746,5 12,5c-3.934,0 -7.105,2.869 -7.683,6.601l2.147,-1.45C6.812,8.598 8.262,7 10.083,7C8.883,8.094 8,9.941 8,12c0,2.058 0.883,3.902 2.266,4.941l2.027,-2.086c-0.293,0 -0.547,-0.106 -0.797,-0.106C9.239,14.75 7,12.762 7,12L7,12z" />
+</vector>

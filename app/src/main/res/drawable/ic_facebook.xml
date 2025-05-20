@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ic_facebook.xml - Icono de Facebook para login social -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#1877F2"
+        android:pathData="M24,12.073c0,-5.8 -4.701,-10.5 -10.5,-10.5S3,6.273 3,12.073c0,5.237 3.843,9.578 8.868,10.362v-7.332H9.083v-3.03h2.785V9.41c0,-2.747 1.637,-4.26 4.133,-4.26 1.197,0 2.449,0.214 2.449,0.214v2.691h-1.379c-1.359,0 -1.782,0.843 -1.782,1.708v2.049h3.032l-0.485,3.03h-2.547v7.332C20.157,21.651 24,17.31 24,12.073z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16.836,15.103l0.485,-3.03h-3.032v-2.049c0,-0.864 0.424,-1.708 1.782,-1.708h1.379V5.625c0,0 -1.252,-0.214 -2.449,-0.214c-2.496,0 -4.133,1.513 -4.133,4.26v2.663H9.083v3.03h2.785v7.332c0.559,0.088 1.132,0.134 1.715,0.134c0.583,0 1.156,-0.046 1.715,-0.134v-7.332H16.836z" />
+</vector>

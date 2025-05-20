@@ -1,0 +1,86 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Fondo circular suave -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M120,120m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+
+    <!-- Tablero/Pizarra de proyectos -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#BBDEFB"
+        android:strokeWidth="2"
+        android:pathData="M70,60L170,60A10,10 0,0 1,180 70L180,150A10,10 0,0 1,170 160L70,160A10,10 0,0 1,60 150L60,70A10,10 0,0 1,70 60z" />
+
+    <!-- Marco de tablero -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M70,60L170,60A10,10 0,0 1,180 70L180,80L60,80L60,70A10,10 0,0 1,70 60z" />
+
+    <!-- Clip vacío / Post-it 1 -->
+    <path
+        android:fillColor="#FFF9C4"
+        android:strokeColor="#FFE082"
+        android:strokeWidth="1"
+        android:pathData="M75,90L115,90A5,5 0,0 1,120 95L120,115A5,5 0,0 1,115 120L75,120A5,5 0,0 1,70 115L70,95A5,5 0,0 1,75 90z" />
+
+    <!-- Líneas de texto en post-it 1 -->
+    <path
+        android:strokeColor="#FFE082"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M80,100L110,100" />
+    <path
+        android:strokeColor="#FFE082"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M80,110L100,110" />
+
+    <!-- Clip vacío / Post-it 2 -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:strokeColor="#C8E6C9"
+        android:strokeWidth="1"
+        android:pathData="M125,100L165,100A5,5 0,0 1,170 105L170,125A5,5 0,0 1,165 130L125,130A5,5 0,0 1,120 125L120,105A5,5 0,0 1,125 100z" />
+
+    <!-- Líneas de texto en post-it 2 -->
+    <path
+        android:strokeColor="#C8E6C9"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M130,110L160,110" />
+    <path
+        android:strokeColor="#C8E6C9"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M130,120L150,120" />
+
+    <!-- Personaje / Figura -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M120,170m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0" />
+
+    <!-- Brazos del personaje -->
+    <path
+        android:strokeColor="#2196F3"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:pathData="M105,175Q95,190 85,170" />
+    <path
+        android:strokeColor="#2196F3"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:pathData="M135,175Q145,190 155,170" />
+
+    <!-- Símbolo de "plus" / agregar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M145,65L155,65A2,2 0,0 1,157 67L157,73A2,2 0,0 1,155 75L145,75A2,2 0,0 1,143 73L143,67A2,2 0,0 1,145 65z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M147,63L153,63A2,2 0,0 1,155 65L155,75A2,2 0,0 1,153 77L147,77A2,2 0,0 1,145 75L145,65A2,2 0,0 1,147 63z" />
+</vector>

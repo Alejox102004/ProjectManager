@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="20dp">
+
+    <!-- Título del proyecto -->
+    <TextView
+        android:id="@+id/tv_project_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del proyecto"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#212121" />
+
+    <!-- Progreso -->
+    <TextView
+        android:id="@+id/tv_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progreso: 0%"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginTop="8dp" />
+
+    <!-- Botón de agregar actividad -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_add_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Actividad"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        app:icon="@drawable/ic_add"
+        app:iconPadding="8dp"
+        app:iconTint="?attr/colorOnPrimary"
+        app:cornerRadius="16dp"
+
+        >
+
+    </com.google.android.material.button.MaterialButton>
+
+
+    <!-- Lista de actividades -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_activities"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:overScrollMode="ifContentScrolls"
+        android:clipToPadding="false" />
+</LinearLayout>
